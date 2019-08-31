@@ -1,0 +1,71 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.25rem;
+    margin: 0;
+    
+}
+
+header {
+    background-color: rgb(243, 192, 82);
+    border:2px solid orange;
+    min-height: 100vh;
+    padding: 0;
+    margin:0;
+}
+
+nav {
+    background-color: orange;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    border: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+header main {
+    padding-top: 5.5rem;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.about-me {
+    padding: 3rem;
+    line-height: x2;
+    background-color: white;
+}
+
+.projects {
+    padding: 3rem;
+    line-height: x2;
+    background-color: rgb(243, 192, 82);
+    border:2px solid orange;
+}
+
+.projects img {
+    width: 32%;
+    padding: 30px;
+    box-sizing: border-box;
+    padding-left: 0;
+}
+
+h2 {
+    padding-top: 3rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
